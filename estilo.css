@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  padding: 0px;
+  text-align: center;
+}
+
+.header img {
+  width: 100px;
+  height: 100px;
+}
+
+.titulo {
+  text-align: center;
+  color: #333;
+  font-size: 20;
+}
+
+.conteudo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.imagem {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imagem img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
