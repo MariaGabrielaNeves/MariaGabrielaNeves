@@ -1,56 +1,74 @@
-.titulo {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: rgb(0, 8, 52);
-}
-
 body {
-    background-color: #4169e1;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    margin: 0; /* Removendo margens padrão */
-    padding: 0; /* Adicionando padding para o conteúdo não ficar colado ao topo */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    height: 50px;
-    background-color: #fff;
-    /*margin: 0;  Removendo margens padrão */
-    padding: 10px; /* Adicionando padding para o conteúdo do cabeçalho */
-    text-align: left; /* Alinhando texto no centro */
+  background-color: black;
+  padding: 0px;
+  padding-inline: 5px;
+  color: white;
+  text-align: center;
+}
+
+.img {
+  position: relative;
+  text-align: start;
+  color: white;
+  padding-left: 5px;
+  padding: 5px;
+
+}
+
+.titulo {
+  text-align: center;
+  color: #333;
+  font-size: 20;
+}
+
+.conteudo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.imagem {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .imagem img {
-        display: block;
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-        margin: 0 auto; /* Certifique-se de que a margem seja 0 auto para centralizar horizontalmente */
-      
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 table {
-    width: 70%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    text-align: center;
-  }
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: center;
+}
 
-  table th,
-  table td {
-    padding: 10px;
-    border: 1px solid #ddd;
-  }
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
 
-  table th {
-    background-color: #f2f2f2;
-  }
+table th {
+  background-color: #f2f2f2;
+}
 
-  footer{
-    background-color: rgb(0, 8, 52);
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  padding-left: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
